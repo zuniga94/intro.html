@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid blue
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 200px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>producto</th>
+            </tr>
+        </thead>
+        
+      <tbody>
+        <tr>
+            <td>Camara</td>
+            <td>$25.50</td>
+        </tr>
+        <tr>
+            <td>laptop</td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>mause</td>
+            <td>$10.50</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <td></td>
+          <td>total: $86.00</td>
+      </tfoot>
+    </table>
+    <!-- ul es una lista no ordenada -->
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemeto 3</li>
+    <li>Elemento 4</li>
+</ul>
+<!-- ol es una lista  ordenada -->
+<ol>
+    <li value="50" > Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemeto 3</li>
+    <li>Elemento 4</li>
+    <li>
+        <ol>
+            <li style="list-style-type: lower-latin;" >sub elemnto 1</li>
+            <li style="list-style-type: lower-latin;">sub Elemento 2</li>
+            <li style="list-style-type: lower-latin;">sub Elemento3</li>
+        </ol>
+    </li>
+
+</ol>
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Ejemplo" type="text" id="nombre" name="nombre" placeholder="solo nombre"/>
+        <br>
+        <label for="apellido">apellido</label>
+        <input value="prueba" type="text" id="apellido" name="apellido" placeholder="solo apellido"/>
+        <br>
+        <label for="comentario">comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="solo comentario" name="comentario">Este es un ejemplo</textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+     </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Estamos practicando codigos html</p>
+    <hr>
+    <h2>Texto de practica</h2>
+    <p>Texto es <span style="color: brown">mucho mejor cuando hay mas texto</span> 
+        por eso dejes <br>
+        que escriba
+    </p>
+    <!-- este texto es un comentario que no va a 
+        aparecer en el explorador -->
+    <a target="_blank"  href="https://www.google.com">Ir a google</a>
+    <img src="img/cafe.jfif" width="400" />
+    
+</body>
+</html>
